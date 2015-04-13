@@ -1,6 +1,6 @@
 # jshack-countdown
 
-Countdown style letters game using websockets created at [JSHack](http://www.meetup.com/JSOxford/events/221085527/).
+Countdown style letters game using websockets created at [JSHack](http://www.meetup.com/JSOxford/events/221085527/) with the one and only [richdouglasevans](https://github.com/richdouglasevans).
 
 #### Quickstart 
 
