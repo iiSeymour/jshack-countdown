@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Countdown</title>
+    
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js"></script>
+
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <script src="socket.io.js"></script>
+    <script src="countdown-timer.js"></script>
+    <script src="countdown.js"></script>
+    
+  </head>
+  
+  <body>
+
+    <div class="container-fluid">
+
+      <div class="row">
+	
+	<br>
+	
+	<img class="center-block img-responsive" src="http://photos3.meetupstatic.com/photos/event/9/f/e/9/600_435340937.jpeg">
+	
+	<h2 class="text-center">Do you want play a game?</h2>
+	<br>
+	<br>
+      </div>
+
+      <div class="row">
+
+	<div class="col-md-offset-1 col-md-3">
+	  
+	  <form>
+
+	    <input class="form-control" placeholder="What is your name?" id="player-name">
+
+	    <br>
+
+	    <div class="input-group">
+              <input class="form-control" id="solution" placeholder="Solution">
+              <span class="input-group-btn">
+	        <button class="btn btn-primary" id="submit-solution">Submit</button>
+              </span>
+	    </div>
+
+
+	  </form>
+	</div>
+	
+
+	<div class="col-md-offset-1 col-md-3">
+	  <h1 id="countdown-label" class="text-primary"></h1>
+	</div>
+	  
+	<div class="col-md-offset-1 col-md-2">
+	  <div id="countdown"></div>
+	</div>
+
+	</div>
+      
+      
+      <div class="row">
+	<div class="col-md-offset-1 col-md-10">
+	  <div id="letter-game-results">
+	    <table id="results-table" class="display" cellspacing="0" width="100%"></table>
+	  </div>
+	</div>
+      </div>
+    </div>
+
+
+  </body>
+  
+</html>
+
