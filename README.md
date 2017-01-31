@@ -9,7 +9,4 @@ Start the websockets server and the express client:
     $ node server/index.js 
     $ node client/index.js
 
-Visit `http://localhost:3000` in a browser... profit.
-
-![](http://i.ytimg.com/vi/fOZOUt8tgmU/maxresdefault.jpg)
-
+Visit `http://localhost:3000` in a browser.
